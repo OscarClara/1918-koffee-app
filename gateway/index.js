@@ -34,5 +34,5 @@ app.get('/pedidos', async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Gateway Café Caldas running on port 3000");
+  console.log("🚀 1918 Koffee: Gateway de Café Especial funcionando en puerto 3000");
 });
