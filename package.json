@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'probando sistema para 1918 Koffee...' && exit 0"
+    "test": "echo 'validando sistema para 1918 Koffee...' && exit 0"
   },
   "keywords": [],
   "author": "",
