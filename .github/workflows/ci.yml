@@ -14,7 +14,11 @@ jobs:
           node-version: '20'
       - run: npm install
       # Por ahora comentamos los tests para que el pipeline pase a verde
-      - run: npm test 
+      - name: Run npm test
+        run: |
+          cd users-service
+          npm install
+          npx jest
 
   lint:
     runs-on: ubuntu-latest
