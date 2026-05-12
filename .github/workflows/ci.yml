@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install
-      # Por ahora comentamos los tests para que el pipeline pase a verde
+      - name: Run npm install
+        run: npm install
       - name: Run npm test
         run: |
           cd users-service
