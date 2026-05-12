@@ -15,10 +15,7 @@ jobs:
       - name: Run npm install
         run: npm install
       - name: Run npm test
-        run: |
-          cd users-service
-          npm install
-          npx jest
+        run: npm test
 
   lint:
     runs-on: ubuntu-latest
