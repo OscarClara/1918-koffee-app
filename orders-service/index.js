@@ -25,7 +25,7 @@ app.post('/orders', (req, res) => {
   orders.push(order);
 
   res.json({
-    message: "Pedido creado con éxito",
+    message: "Pedido hecho a Cenicafe",
     order
   });
 });
