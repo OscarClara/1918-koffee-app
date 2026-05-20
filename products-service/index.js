@@ -5,7 +5,7 @@ app.use(express.json());
 
 const products = [
   { id: 1, name: "Café Premium", origin: "Caldas", price: 25000 },
-  { id: 2, name: "Café Orgánico", origin: "Caldas", price: 30000 }
+  { id: 2, name: "Café de Orígen", origin: "Caldas", price: 30000 }
 ];
 
 // Obtener productos
